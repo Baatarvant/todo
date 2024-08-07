@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="myBtn">Open Modal</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <input id="taskInput" type="text" placeholder="text" />
+          <select id="taskStatusSelect" type="">
+            <option value=""></option>
+            <option value="todo">todo</option>
+            <option value="inprogress">in progress</option>
+          </select>
+
+          <button id="taskSubmitBtn">submit task</button>
+        </div>
+      </div>
+      <div class="flex">
+        <div>
+          <h1>todo</h1>
+          <div class="board todo">
+            <!-- <div class="task">
+            <input type="checkbox" />
+            <p>task text</p>
+            <div class="flex">
+              <p class="icon">e</p>
+              <p class="icon">x</p>
+            </div>
+          </div> -->
+          </div>
+        </div>
+        <div>
+          <h1>inprogress</h1>
+
+          <div class="board inprogress"></div>
+          <!-- <div class="task">
+            <input type="checkbox" />
+            <p>task text</p>
+            <div class="flex">
+              <p class="icon">e</p>
+              <p class="icon">x</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
