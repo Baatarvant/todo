@@ -37,7 +37,7 @@ window.onclick = function (event) {
 };
 
 function createTaskElement(text, id, checked) {
-  let isChecked = checked ? "checked" : ""; // ternary
+  let isChecked = checked ? "checked" : "";
 
   let _taskHMTL = `
   <div class="task">
