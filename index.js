@@ -6,12 +6,6 @@ let _taskSubmitBtn = document.getElementById("taskSubmitBtn");
 let todoBoard = document.getElementsByClassName("board todo")[0];
 let inprogressBoard = document.getElementsByClassName("board inprogress")[0];
 
-// let task = {
-//   text: "",
-//   isDone: false,
-//   status: "todo",
-// };
-
 let tasks = [];
 
 // Get the button that opens the modal
